@@ -1,0 +1,2 @@
+WFRP4E.weaponQualities["rapid"] = "Rapid";
+WFRP4E.qualityDescriptions["rapid"] = "Characters with Rapid weapons may make two Ranged Attacks in the same Round, provided they do not use their Move Action. The second Attack suffers a -10 Penalty from recoil."

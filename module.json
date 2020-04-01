@@ -1,0 +1,23 @@
+{
+  "name": "wfrp-elderraces",
+  "title": "WFRP - The Elder Races",
+  "description": "Adds new trappings such as gromril armor, talents, and careers from the Ratter Vol. 2 Issue 2. Requires the WFRP 4e system.",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.5.0",
+  "author": "Michael Sebelski [DasSauerkraut#3215], WFRP 4e System by Moo Man",
+  "url": "https://github.com/DasSauerkraut/wfrp-elderraces",
+  "manifest": "https://raw.githubusercontent.com/DasSauerkraut/wfrp-elderraces/master/module.json",
+  "download": "https://github.com/DasSauerkraut/wfrp-elderraces/raw/master/package/wfrp-gwmwg-v1.1.0.zip",
+  "scripts": [ "wfrp-elderraces.js"],
+  "styles": [ "./css/elderraces-style.css" ],
+  "packs": [
+    {
+      "name": "ter-trappings",
+      "label": "The Elder Races - Trappings",
+      "path": "packs/tertrappings.db",
+      "entity": "Item",
+      "module": "wfrp-elderraces",
+      "package": "wfrp-elderraces"
+    }
+  ]
+}
